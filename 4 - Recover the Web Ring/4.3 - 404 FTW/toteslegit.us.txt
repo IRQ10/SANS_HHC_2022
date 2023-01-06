@@ -1,0 +1,34 @@
+GET /aboutus.html HTTP/1.1
+Host: www.toteslegit.us
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: Werkzeug/2.2.2 Python/3.8.10
+Date: Wed, 05 Oct 2022 16:45:28 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 680
+Connection: close
+
+<html>
+    <head><title>Legitimate Website!</title></head>
+    <body>
+    <h1>About Us</h1><!-- or something -->
+    <p>Who are we?</p>
+    <p>We are the most elite web developers EVAR.  Things we know how to do:
+        <ul>
+            <li>Serve web pages</li>
+            <li>Add text to them</li>
+            <li>Ignore security issues</li>
+            <li>Use images from <a href="https://www.craiyon.com/">craiyon</a> under their free commercial license</li>
+        </ul>
+    </p>
+    <img src="/static/moria_december.jpg" />
+    <br>
+<a href='/'>Home</a>
+<a href='/aboutus.html'>About Us</a>
+<a href='/login.html'>Login</a>
+<a href='/logout.html'>Logout</a>
+</body></html>

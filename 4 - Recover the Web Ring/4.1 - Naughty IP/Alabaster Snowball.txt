@@ -1,0 +1,56 @@
+Alabaster Snowball
+
+Hey there! I'm Alabaster Snowball
+
+And I have to say, I'm a bit distressed.
+
+I was working with the dwarves and their Boria mines, and I found some disturbing activity!
+
+Looking through these artifacts, I think something naughty's going on.
+
+Can you please take a look and answer a few questions for me?
+
+First, we need to know where the attacker is coming from.
+
+If you haven't looked at Wireshark's Statistics menu, this might be a good time!
+
+
+Alabaster Snowball
+Aha, you found the naughty actor! Next, please look into the account brute force attack.
+
+You can focus on requests to /login.html~
+
+Alice? I totally expected Eve! Well how about forced browsing? What's the first URL path they found that way?
+
+The misses will have HTTP status code 404 and, in this case, the successful guesses return 200.
+
+Great! Just one more challenge! It looks like they made the server pull credentials from IMDS. What URL was forced?
+
+AWS uses a specific IP address for IMDS lookups. Searching for that in the PCAP should get you there quickly.
+
+Fantastic! It seems simpler now that I've seen it once. Thanks for showing me!
+
+Hey, so maybe I can help you out a bit with the door to the mines.
+
+First, it'd be great to bring an Elvish keyboard, but if you can't find one, I'm sure other input will do.
+
+Instead, take a minute to read the HTML/JavaScript source and consider how the locks are processed.
+
+Next, take a look at the Content-Security-Policy header. That drives how certain content is handled.
+
+Lastly, remember that input sanitization might happen on either the client or server ends!
+
+
+Alabaster Snowball
+
+Fantastic! It seems simpler now that I've seen it once. Thanks for showing me!
+
+Hey, so maybe I can help you out a bit with the door to the mines.
+
+First, it'd be great to bring an Elvish keyboard, but if you can't find one, I'm sure other input will do.
+
+Instead, take a minute to read the HTML/JavaScript source and consider how the locks are processed.
+
+Next, take a look at the Content-Security-Policy header. That drives how certain content is handled.
+
+Lastly, remember that input sanitization might happen on either the client or server ends!

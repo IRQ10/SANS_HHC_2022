@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lock 4</title>
+    <link rel="stylesheet" href="pin.css">
+    <script>
+        const sanitizeInput = () => {
+            const input = document.querySelector('.inputTxt');
+            const content = input.value;
+            input.value = content
+                .replace(/"/, '')
+                .replace(/'/, '')
+                .replace(/</, '')
+                .replace(/>/, '');
+        }
+    </script>
+</head>
+<body>
+    <form method='post' action='pin4'>
+        <input class='inputTxt' name='inputTxt' type='text' value='' autocomplete='off' onblur='sanitizeInput()' />
+        <button>GO</button>
+    </form>
+    <div class='output'></div>
+    <img class='captured'/>
+    
+    <!-- js -->
+    <script src='pin.js'></script>
+</body>
+</html>

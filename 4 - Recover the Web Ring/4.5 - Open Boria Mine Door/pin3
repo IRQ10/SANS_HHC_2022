@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'; style-src 'self'">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';"> -->
+    <title>Lock 3</title>
+    <link rel="stylesheet" href="pin.css">
+</head>
+<body>
+    <form method='post' action='pin3'>
+        <!-- TODO: FILTER OUT JAVASCRIPT FROM USER INPUT -->
+        <input class='inputTxt' name='inputTxt' type='text' value='' autocomplete='off' />
+        <button>GO</button>
+    </form>
+    <div class='output'></div>
+    <img class='captured'/>
+    
+    <!-- js -->
+    <script src='pin.js'></script>
+</body>
+</html>

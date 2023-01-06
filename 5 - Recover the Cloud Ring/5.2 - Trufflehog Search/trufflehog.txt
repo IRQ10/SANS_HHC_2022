@@ -1,0 +1,103 @@
+$ trufflehog https://haugfactory.com/asnowball/aws_scripts.git
+
+
+~~~~~~~~~~~~~~~~~~~~~
+[92mReason: High Entropy[0m
+[92mDate: 2022-09-07 10:53:32[0m
+[92mHash: 3476397f95da11a776d4118f1f9ae6c9d4afd0c9[0m
+[92mFilepath: put_policy.py[0m
+[92mBranch: origin/main[0m
+[92mCommit: added
+[0m
+@@ -4,8 +4,8 @@ import json
+ 
+ iam = boto3.client('iam',
+     region_name='us-east-1',
+-    aws_access_key_id=ACCESSKEYID,
+-    aws_secret_access_key=SECRETACCESSKEY,
++    aws_access_key_id="AKIAAIDAYRANYAHGQOHD",
++    aws_secret_access_key="[93me95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL[0m",
+ )
+ # arn:aws:ec2:us-east-1:accountid:instance/*
+ response = iam.put_user_policy(
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+[92mReason: High Entropy[0m
+[92mDate: 2022-09-07 10:53:12[0m
+[92mHash: 106d33e1ffd53eea753c1365eafc6588398279b5[0m
+[92mFilepath: put_policy.py[0m
+[92mBranch: origin/main[0m
+[92mCommit: added
+[0m
+@@ -4,8 +4,8 @@ import json
+ 
+ iam = boto3.client('iam',
+     region_name='us-east-1',
+-    aws_access_key_id="AKIAAIDAYRANYAHGQOHD",
+-    aws_secret_access_key="[93me95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL[0m",
++    aws_access_key_id=ACCESSKEYID,
++    aws_secret_access_key=SECRETACCESSKEY,
+ )
+ # arn:aws:ec2:us-east-1:accountid:instance/*
+ response = iam.put_user_policy(
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+[92mReason: High Entropy[0m
+[92mDate: 2022-09-06 16:11:23[0m
+[92mHash: 03a20997c70f2443959446d5569e5b9846d95036[0m
+[92mFilepath: put_policy.py[0m
+[92mBranch: origin/main[0m
+[92mCommit: added
+[0m
+@@ -4,12 +4,12 @@ import json
+ 
+ iam = boto3.client('iam',
+     region_name='us-east-1',
+-    aws_access_key_id=ACCESSKEYID,
+-    aws_secret_access_key=SECRETACCESSKEY,
++    aws_access_key_id="AIDAYRANYAHGQOHD7OUSS",
++    aws_secret_access_key="[93me95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL[0m",
+ )
+ # arn:aws:ec2:us-east-1:accountid:instance/*
+ response = iam.put_user_policy(
+     PolicyDocument='{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Action":["ssm:SendCommand"],"Resource":["arn:aws:ec2:us-east-1:748127089694:instance/i-0415bfb7dcfe279c5","arn:aws:ec2:us-east-1:748127089694:document/RestartServices"]}]}',
+     PolicyName='AllAccessPolicy',
+-    UserName='nwt8_test',
++    UserName='elf_test',
+ )
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+[92mReason: High Entropy[0m
+[92mDate: 2022-09-06 16:10:48[0m
+[92mHash: 422708564ef952ff28ce719ab6dc15002fa84a6e[0m
+[92mFilepath: put_policy.py[0m
+[92mBranch: origin/main[0m
+[92mCommit: added
+[0m
+@@ -1,15 +0,0 @@
+-import boto3
+-import json
+-
+-
+-iam = boto3.client('iam',
+-    region_name='us-east-1',
+-    aws_access_key_id="AIDAYRANYAHGQOHD7OUSS",
+-    aws_secret_access_key="[93me95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL[0m",
+-)
+-# arn:aws:ec2:us-east-1:accountid:instance/*
+-response = iam.put_user_policy(
+-    PolicyDocument='{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Action":["ssm:SendCommand"],"Resource":["arn:aws:ec2:us-east-1:748127089694:instance/i-0415bfb7dcfe279c5","arn:aws:ec2:us-east-1:748127089694:document/RestartServices"]}]}',
+-    PolicyName='AllAccessPolicy',
+-    UserName='elf_test',
+-)
+
+$ trufflehog --json https://haugfactory.com/asnowball/aws_scripts.git
+
+~~~~~~~~~~~~~~~~~~~~~
+{"branch": "origin/main", "commit": "added\n", "commitHash": "3476397f95da11a776d4118f1f9ae6c9d4afd0c9", "date": "2022-09-07 10:53:32", "diff": "@@ -4,8 +4,8 @@ import json\n \n iam = boto3.client('iam',\n     region_name='us-east-1',\n-    aws_access_key_id=ACCESSKEYID,\n-    aws_secret_access_key=SECRETACCESSKEY,\n+    aws_access_key_id=\"AKIAAIDAYRANYAHGQOHD\",\n+    aws_secret_access_key=\"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\",\n )\n # arn:aws:ec2:us-east-1:accountid:instance/*\n response = iam.put_user_policy(\n", "path": "put_policy.py", "printDiff": "@@ -4,8 +4,8 @@ import json\n \n iam = boto3.client('iam',\n     region_name='us-east-1',\n-    aws_access_key_id=ACCESSKEYID,\n-    aws_secret_access_key=SECRETACCESSKEY,\n+    aws_access_key_id=\"AKIAAIDAYRANYAHGQOHD\",\n+    aws_secret_access_key=\"\u001b[93me95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL\u001b[0m\",\n )\n # arn:aws:ec2:us-east-1:accountid:instance/*\n response = iam.put_user_policy(\n", "reason": "High Entropy", "stringsFound": ["e95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL"]}
+{"branch": "origin/main", "commit": "added\n", "commitHash": "106d33e1ffd53eea753c1365eafc6588398279b5", "date": "2022-09-07 10:53:12", "diff": "@@ -4,8 +4,8 @@ import json\n \n iam = boto3.client('iam',\n     region_name='us-east-1',\n-    aws_access_key_id=\"AKIAAIDAYRANYAHGQOHD\",\n-    aws_secret_access_key=\"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\",\n+    aws_access_key_id=ACCESSKEYID,\n+    aws_secret_access_key=SECRETACCESSKEY,\n )\n # arn:aws:ec2:us-east-1:accountid:instance/*\n response = iam.put_user_policy(\n", "path": "put_policy.py", "printDiff": "@@ -4,8 +4,8 @@ import json\n \n iam = boto3.client('iam',\n     region_name='us-east-1',\n-    aws_access_key_id=\"AKIAAIDAYRANYAHGQOHD\",\n-    aws_secret_access_key=\"\u001b[93me95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL\u001b[0m\",\n+    aws_access_key_id=ACCESSKEYID,\n+    aws_secret_access_key=SECRETACCESSKEY,\n )\n # arn:aws:ec2:us-east-1:accountid:instance/*\n response = iam.put_user_policy(\n", "reason": "High Entropy", "stringsFound": ["e95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL"]}
+{"branch": "origin/main", "commit": "added\n", "commitHash": "03a20997c70f2443959446d5569e5b9846d95036", "date": "2022-09-06 16:11:23", "diff": "@@ -4,12 +4,12 @@ import json\n \n iam = boto3.client('iam',\n     region_name='us-east-1',\n-    aws_access_key_id=ACCESSKEYID,\n-    aws_secret_access_key=SECRETACCESSKEY,\n+    aws_access_key_id=\"AIDAYRANYAHGQOHD7OUSS\",\n+    aws_secret_access_key=\"e95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL\",\n )\n # arn:aws:ec2:us-east-1:accountid:instance/*\n response = iam.put_user_policy(\n     PolicyDocument='{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Action\":[\"ssm:SendCommand\"],\"Resource\":[\"arn:aws:ec2:us-east-1:748127089694:instance/i-0415bfb7dcfe279c5\",\"arn:aws:ec2:us-east-1:748127089694:document/RestartServices\"]}]}',\n     PolicyName='AllAccessPolicy',\n-    UserName='nwt8_test',\n+    UserName='elf_test',\n )\n", "path": "put_policy.py", "printDiff": "@@ -4,12 +4,12 @@ import json\n \n iam = boto3.client('iam',\n     region_name='us-east-1',\n-    aws_access_key_id=ACCESSKEYID,\n-    aws_secret_access_key=SECRETACCESSKEY,\n+    aws_access_key_id=\"AIDAYRANYAHGQOHD7OUSS\",\n+    aws_secret_access_key=\"\u001b[93me95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL\u001b[0m\",\n )\n # arn:aws:ec2:us-east-1:accountid:instance/*\n response = iam.put_user_policy(\n     PolicyDocument='{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Action\":[\"ssm:SendCommand\"],\"Resource\":[\"arn:aws:ec2:us-east-1:748127089694:instance/i-0415bfb7dcfe279c5\",\"arn:aws:ec2:us-east-1:748127089694:document/RestartServices\"]}]}',\n     PolicyName='AllAccessPolicy',\n-    UserName='nwt8_test',\n+    UserName='elf_test',\n )\n", "reason": "High Entropy", "stringsFound": ["e95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL"]}
+{"branch": "origin/main", "commit": "added\n", "commitHash": "422708564ef952ff28ce719ab6dc15002fa84a6e", "date": "2022-09-06 16:10:48", "diff": "@@ -1,15 +0,0 @@\n-import boto3\n-import json\n-\n-\n-iam = boto3.client('iam',\n-    region_name='us-east-1',\n-    aws_access_key_id=\"AIDAYRANYAHGQOHD7OUSS\",\n-    aws_secret_access_key=\"e95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL\",\n-)\n-# arn:aws:ec2:us-east-1:accountid:instance/*\n-response = iam.put_user_policy(\n-    PolicyDocument='{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Action\":[\"ssm:SendCommand\"],\"Resource\":[\"arn:aws:ec2:us-east-1:748127089694:instance/i-0415bfb7dcfe279c5\",\"arn:aws:ec2:us-east-1:748127089694:document/RestartServices\"]}]}',\n-    PolicyName='AllAccessPolicy',\n-    UserName='elf_test',\n-)\n", "path": "put_policy.py", "printDiff": "@@ -1,15 +0,0 @@\n-import boto3\n-import json\n-\n-\n-iam = boto3.client('iam',\n-    region_name='us-east-1',\n-    aws_access_key_id=\"AIDAYRANYAHGQOHD7OUSS\",\n-    aws_secret_access_key=\"\u001b[93me95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL\u001b[0m\",\n-)\n-# arn:aws:ec2:us-east-1:accountid:instance/*\n-response = iam.put_user_policy(\n-    PolicyDocument='{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Action\":[\"ssm:SendCommand\"],\"Resource\":[\"arn:aws:ec2:us-east-1:748127089694:instance/i-0415bfb7dcfe279c5\",\"arn:aws:ec2:us-east-1:748127089694:document/RestartServices\"]}]}',\n-    PolicyName='AllAccessPolicy',\n-    UserName='elf_test',\n-)\n", "reason": "High Entropy", "stringsFound": ["e95qToloszIgO9dNBsQMQsc5/foiPdKunPJwc1rL"]}

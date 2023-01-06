@@ -1,0 +1,16 @@
+elf@a9a126330d6b:~$ aws help
+
+
+elf@a9a126330d6b:~$ aws configure
+AWS Access Key ID [None]: AKQAAYRKO7A5Q5XUY2IY
+AWS Secret Access Key [None]: qzTscgNdcdwIo/soPKPoJn9sBrl5eMQQL19iO5uf
+Default region name [None]: us-east-1
+Default output format [None]: 
+
+
+elf@a9a126330d6b:~$ aws sts get-caller-identity
+{
+    "UserId": "AKQAAYRKO7A5Q5XUY2IY",
+    "Account": "602143214321",
+    "Arn": "arn:aws:iam::602143214321:user/elf_helpdesk"
+}

